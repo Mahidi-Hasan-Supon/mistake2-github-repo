@@ -153,7 +153,7 @@ body{
     font-size: 2.5em;
     font-weight: 700px;
 }
-.fifth-container-second-img h5{
+.fifth-container-second-img small{
     color: #FFFFFF;
     font-size: 1.75em;
     font-weight: 600px;
@@ -312,6 +312,12 @@ body{
         width: 300px;
 
     }
+    .fifth-container-second-img h1{
+        font-size: 1.5em;
+    }
+    .fifth-container-second-img small{
+        font-size: 1em;
+    }
     .fifth-all-img{
         flex-direction: column;
         margin: 0 auto;
@@ -322,4 +328,13 @@ body{
         width: 300px;
         height: 250px;
     }
+    .input-img{
+        height: 500px;
+        width: 90%;
+    }
+    .footer-container input{
+        height: 50px ;
+        width: 300px;
+    }
+
 }
