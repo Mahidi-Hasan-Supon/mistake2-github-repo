@@ -105,12 +105,14 @@ body{
     background-color: #E95A08;
     padding: 20px 80px;
     color: #FFFFFF;
+    border-color: #FFFFFF;
 }
 /* fourth contaier*/
 .fourth-container{
     display: flex;
     gap: 50px;
     margin: 200px 100px;
+  
 
 }
 .fourth-container-title{
@@ -129,9 +131,9 @@ body{
 
 }
 .flower-store{
-    height: 550px;
+    /* height: 550px; */
     position:absolute;
-    width: 500px;
+    /* width: 500px; */
 }
 /* fifth title */
 .fifth-title-discription{
@@ -195,6 +197,27 @@ body{
     text-align: center;
     
 }
+/* footer section */
+.footer-container{
+    text-align: center;
+    align-content: center;
+    padding: 100px 200px;
+}
+.input-img input{
+    width: 600px;
+    background-color: #FFFFFF ;
+    /* border-color: #FFFFFF; */
+    border-color: #FFFFFF;
+}
+.input-img{
+    background-image: url(../img/news-letter-bg.png);
+    width: 90%;
+    height: 300px;
+}
+/* footer item section */
+.footer-left{
+    height: 50px;
+}
 
 @media screen and (max-width:576px) {
     .home,.shop-about,.badge{
@@ -210,6 +233,7 @@ body{
     }  
     .third-container{
         flex-direction: column-reverse;
+        margin: 0 auto;
         
     }
      .third-container-discription br{
@@ -217,27 +241,44 @@ body{
      }
     .third-container-title,.third-container-discription br{
          align-items: center;
+         text-align: center;
     }
     .third-container-img{
-        width: 30%;
+        /* width:0 auto; */
         padding: 10px;
         display: grid;
-        justify-content: center;
-        margin: 100px 200px;
-        grid-template-columns: repeat(2,1fr);
+        /* justify-content: center; */
+        margin:0 auto;
+        grid-template-columns: repeat(2, 1fr);
     }
-    .fourth-container-title div ul {
-        margin: 100px 150px;
+    .fourth-container{
+        display: flex;
+        /* flex-direction: column; */
     }
     .flower-store{
-        height: 400px;
-        width: 400px;
-        margin: 50px;  
+        margin: 0 auto;
     }
     .img{
         margin-left: 30%;
     }
-    .fifth-title{
-        width: 100px;
+    .fifth-title-discription{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .fifth-bg,.fifth-bg-h3{
+        width: 300px;
+
+    }
+    .fifth-all-img{
+        flex-direction: column;
+        margin: 0 auto;
+        width: 300px
+    }
+    .fifth-container-second-img{
+        margin: 0 auto;
+        width: 300px;
+        height: 250px;
     }
 }
