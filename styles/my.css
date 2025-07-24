@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.home,.shop-about,.cart,.title-discription,.third-container-discription,.lily-blossom,.third-container-brn{
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+ 
+body{
+    overflow-x: hidden;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.first-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin:30px 150px;
+    /* width: 90%; */
+}
+
+.inline-container ul{
+    margin-right: 20px;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+
+}
+
+.shop-about{
+    color: #8987A1;
+    font-size: 1em;
+    font-weight: 600px;
+}
+.cart{
+    color: #000000;
+    font-size: 1em;
+    font-weight: 400px;
+}
+.home{
+    color: #252432;
+    font-size:1.2em;
+    font-weight: 800px;
+}
+/* second container */
+
+.second-container{
+    display: flex;
+    align-items: center;
+    margin: 30px 150px;
+    gap:35%;
+  
+    
+}
+.second-container img{
+    height: 190px;
+}
+
+.first-container-title{
+    font-size: 4em;
+    font-weight: 700px;
+}
+.title-discription{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 1.0em;
+    font-weight: 400px;
+}
+/* third container */
+.third-container{
+    text-align: center;
+    margin-top: 100px;
+     
+}
+.third-container-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+    width:80%;
+    margin: 50px 100px;
+   
+}
+.third-container-title{
+    color: #000000;
+    font-size: 3.12em;
+    font-weight: 700px;
+
+}
+.our{
+    color: #E95A08;
+}
+.lily-blossom{
+    color:#111111;
+    font-weight: 200px;
+    font-size: 1.2em;
+}
+.third-container-brn{
+    background-color: #E95A08;
+    padding: 20px 80px;
+    color: #FFFFFF;
+}
+/* fourth contaier*/
+.fourth-container{
+    display: flex;
+    gap: 50px;
+    margin: 200px 100px;
+
+}
+.fourth-container-title{
+    color: #000000;
+    font-size: 3.12em;
+    font-weight: 700px;
+}
+.badge{
+    width: 200px;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    margin-left: 350px;
+    margin-top:-120px ;
+    
+
+}
+.flower-store{
+    height: 550px;
+    position:absolute;
+    width: 500px;
+}
+/* fifth title */
+.fifth-title-discription{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 130px 150px;
+}
+.fifth-title{
+    font-size: 3.25em;
+    font-weight: 700px;
+    text-align: center;
+}
+
+.fifth-container-second-img h1{
+    color: #FFFFFF;
+    font-size: 2.5em;
+    font-weight: 700px;
+}
+.fifth-container-second-img h5{
+    color: #FFFFFF;
+    font-size: 1.75em;
+    font-weight: 600px;
+}
+ .fifth-all-img{
+    display: flex;
+    margin: 100px 140px;
+    padding: 28px;
+    gap: 28px;
+ }
+.fifth-container-img p{
+    color: #FFFFFF;
+    font-size: 1.2em;
+    font-weight: 500px;
+}
+.fifth-bg{
+    background-image: url(../img/deal-bloom.png);
+    height: 200px;
+    width: 350px;
+    border-radius: 14px;
+    text-align: center;
+    align-content: center;
+
+
+}
+.fifth-bg-h3{
+    background-image: url(../img/deal-ana.png);
+    height: 200px;
+    width: 350px;
+    border-radius: 14px;
+    text-align: center;
+    align-content: center;
+
+}
+.fifth-container-second-img{
+    background-image: url(../img/deal-zabo.png);
+    height:420px ;
+    width: 750px;
+    border-radius: 22px;
+    align-content: center;
+    text-align: center;
+    
+}
+
+@media screen and (max-width:576px) {
+    .home,.shop-about,.badge{
+        display: none;
+    }
+    .first-container{
+       margin: 0 auto;
+    } 
+    .second-container{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }  
+    .third-container{
+        flex-direction: column-reverse;
+        
+    }
+     .third-container-discription br{
+        display: none;
+     }
+    .third-container-title,.third-container-discription br{
+         align-items: center;
+    }
+    .third-container-img{
+        width: 30%;
+        padding: 10px;
+        display: grid;
+        justify-content: center;
+        margin: 100px 200px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .fourth-container-title div ul {
+        margin: 100px 150px;
+    }
+    .flower-store{
+        height: 400px;
+        width: 400px;
+        margin: 50px;  
+    }
+    .img{
+        margin-left: 30%;
+    }
+    .fifth-title{
+        width: 100px;
+    }
+}
