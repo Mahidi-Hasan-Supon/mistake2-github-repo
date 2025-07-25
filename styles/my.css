@@ -176,8 +176,6 @@ body{
     border-radius: 14px;
     text-align: center;
     align-content: center;
-
-
 }
 .fifth-bg-h3{
     background-image:url(../img/deal-ana.png);
@@ -190,7 +188,6 @@ body{
 }
 .fifth-container-second-img{
     background-image: url(../img/deal-zabo.png);
-
     height:420px ;
     width: 750px;
     border-radius: 22px;
@@ -296,7 +293,7 @@ body{
     .third-container-brn{
         /* width: 70px; 
         height: 50px; */
-        text-align: left;
+        text-align: center;
         margin-left:1px ;
         display: flex;
         /* flex-wrap: nowrap; */
@@ -316,7 +313,7 @@ body{
     .flower-store{
         position:absolute;
         width: 70%;
-        height: 45%;
+        height: 35%;
         margin-left:50px;
         margin-top:-170px ;
     }
